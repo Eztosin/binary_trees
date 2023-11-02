@@ -1,7 +1,7 @@
 ### 0x1D. C - Binary trees
-    Binary trees is a collection of entities(nodes) linked together
-    to simulate a hierachy. Each node has at most two children like
-    a real tree must have a root or topmost node.
+    A tree is a collection of entities(nodes) linked together
+    to simulate a hierachy. In a binary tree, each node has at most
+    two children and like a real tree must have a root or topmost node.
 
 - Write a function that creates a binary tree node
   Prototype: binary_tree_t *binary_tree_node(binary_tree_t *parent,
