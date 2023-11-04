@@ -21,7 +21,7 @@ return (0);
 
 left_height = binary_tree_height(tree->left);
 right_height = binary_tree_height(tree->right);
-return ((right_height - left_height));
+return ((left_height - right_height));
 }
 
 /**
