@@ -32,17 +32,14 @@ if (tree == NULL)
 return (0);
 }
 
-if ((tree->left == NULL && tree->right == NULL))
+if ((tree->left == NULL) && (tree->right == NULL))
 return (1);
-
 if (binary_tree_is_full(tree->left) && binary_tree_is_full(tree->right))
 {
 return (1);
 }
 return (0);
 }
-
-size_t binary_tree_height(const binary_tree_t *tree);
 
 /**
 * binary_tree_balance - measures the balance factor of a binary tree
